@@ -1,32 +1,4 @@
- .container {
-    max-width: 80%;
-    
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    // display: flex;
-    align-items: center;
-    grid-column-gap: 30rem;
-    
-    
-    
-    
- }
-
-
-.thumbnail-box {
-  
-
-  &--img {
-   
-    
-    width: 100%;
-    display: block;
-    
-    
-    
-  }
-}
+ 
 
 .brends {
   display: flex;
@@ -99,5 +71,39 @@
   
   padding: 2.5rem;
   border-radius: 1.5rem;
+}
+
+.hero {
+  width: 80%;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 15rem;
+
+
+
+  &--box {
+    
+    
+  }
+
+  &--heading {
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 2.5rem;
+  }
+
+  &--text {
+    font-size: 1.9rem;
+  }
+
+  &--img {
+    width: 100%;
+    
+    
+    
+
+  }
 }
 
